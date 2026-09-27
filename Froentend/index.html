@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>Student Management System</h1>
+            <p>Python • HTML • CSS • JavaScript</p>
+        </div>
+
+        <div class="card">
+
+            <h2>Student Details</h2>
+
+            <label>Student Name</label>
+            <input type="text" id="name" placeholder="Enter student name">
+
+            <label>Age</label>
+            <input type="number" id="age" placeholder="Enter age">
+
+            <label>Mark 1</label>
+            <input type="number" id="mark1" placeholder="Enter mark (0-100)">
+
+            <label>Mark 2</label>
+            <input type="number" id="mark2" placeholder="Enter mark (0-100)">
+
+            <label>Mark 3</label>
+            <input type="number" id="mark3" placeholder="Enter mark (0-100)">
+
+            <button onclick="calculateResult()">
+                Calculate Result
+            </button>
+
+            <div id="message"></div>
+
+        </div>
+
+        <div class="result-card" id="resultCard">
+
+            <h2>Result</h2>
+
+            <p id="result"></p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
